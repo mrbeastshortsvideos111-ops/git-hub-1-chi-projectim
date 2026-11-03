@@ -1,0 +1,32 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: teal;
+}
+/* 1. Katta o'rab turuvchi quti (container) */
+.container {
+    width: 600px;
+    background-color: blue; /* yoki red/blue xohlagan ranging */
+    border: 5px solid red;   /* qizil hoshiya */
+    padding: 10px;          /* ichidagi box bilan orasidagi masofa */
+    margin: 0 auto;         /* EKRANNING O'RTAGA KELTIRISH UCHUN */
+}
+
+/* 2. Ichidagi yashil blok (box) */
+.box {
+    background-color: #27e3ab;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* height: ... ni OLIB TASHLA! */
+}
+h1 {
+    width: 400px;
+    height: 60px; /* yoki balandlikni kamaytiring */
+    background-color: yellow;
+    padding: 10px;
+    margin: 0 auto; /* ramka ichida o'rtaga keltirish uchun */
+    text-align: center;
+}
